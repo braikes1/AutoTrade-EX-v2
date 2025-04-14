@@ -11,43 +11,19 @@ AutoTrade EX v2 is a contract-based automated trading system that detects and tr
 - Streamlit frontend for visual review of trades
 - Launchable via batch script for convenience
 
-## Folder Structure
+## Folder Structure (Overview)
 
-AUTOTRADE EX V2/
-│
-├── .vscode/                     # VS Code settings
-│   └── settings.json
-│
-├── backtests/                   # Strategy testing scripts
-│   └── test_strategy_v21.py
-│
-├── core/                        # Core utilities like logging
-│   ├── logger.py
-│   └── __pycache__/
-│
-├── data/                        # Local data fetching or caching
-│   └── spy_chart_v21.py
-│   └── __pycache__/
-│
-├── frontend/                    # Streamlit app
-│   └── app.py
-│
-├── logs/                        # Auto-generated trade logs
-│   └── autotrade_2025-04-08.log
-│   └── autotrade_2025-04-09.log
-│
-├── strategies/                  # Trading strategy logic
-│   └── falling_wedge_strategy_v21.py
-│   └── __pycache__/
-│
-├── visualization/              # Chart plotting utilities
-│   └── plot_test.py
-│   └── plot_wedge_lines.py
-│   └── __pycache__/
-│
-├── launch_autotrade_v2.bat     # Windows shortcut to run the app
-├── main.py                     # Main execution script
-└── README.md                   # Project documentation
+- `.vscode/` - VS Code settings
+- `backtests/` - Strategy testing scripts
+- `core/` - Core utilities like logging
+- `data/` - Local data fetching or caching
+- `frontend/` - Streamlit frontend app
+- `logs/` - Daily trade log files
+- `strategies/` - Trading strategy logic (v2.1)
+- `visualization/` - Chart plotting utilities
+- `launch_autotrade_v2.bat` - Batch file for launching app on Windows
+- `main.py` - Main entry point script
+- `README.md` - Project documentation
 
 ## Usage
 
